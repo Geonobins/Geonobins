@@ -2,19 +2,77 @@
 <html>
 <head>
 	<title>Geo Nobins - Portfolio</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+		}
+		.header {
+			background-color: #24292e;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+			font-size: 30px;
+			font-weight: bold;
+			letter-spacing: 3px;
+		}
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			padding: 20px;
+		}
+		.card {
+			flex-basis: calc(33.33% - 20px);
+			background-color: #f5f5f5;
+			padding: 20px;
+			margin-bottom: 20px;
+			border-radius: 5px;
+			box-shadow: 0 2px 5px rgba(0,0,0,.2);
+		}
+		.card i {
+			font-size: 50px;
+			margin-bottom: 20px;
+			display: block;
+			color: #24292e;
+		}
+		.card h3 {
+			font-size: 20px;
+			margin-bottom: 10px;
+			color: #24292e;
+		}
+		.card p {
+			font-size: 16px;
+			margin-bottom: 0;
+			color: #555;
+		}
+		.card:hover {
+			box-shadow: 0 4px 10px rgba(0,0,0,.3);
+		}
+	</style>
 </head>
 <body>
-	<h1>Geo Nobins</h1>
-	<h2>C/C++/Java/Python Developer</h2>
-	<p>I am a software developer with experience in C, C++, Java, and Python. I have worked on several projects, including web applications, mobile apps, and desktop software. I am always looking for new challenges and opportunities to learn and grow as a developer.</p>
-	<h2>Projects</h2>
-	<ul>
-		<li>Project 1: Description of project 1.</li>
-		<li>Project 2: Description of project 2.</li>
-		<li>Project 3: Description of project 3.</li>
-	</ul>
-	<footer>
-		<p>© 2023 Geo Nobins</p>
-	</footer>
+	<header class="header">
+		Geo Nobins - Portfolio
+	</header>
+	<div class="container">
+		<div class="card">
+			<i class="fab fa-c"></i>
+			<h3>C Programming</h3>
+			<p>Experience with basic to advanced level of C programming language.</p>
+		</div>
+		<div class="card">
+			<i class="fab fa-python"></i>
+			<h3>Python Programming</h3>
+			<p>Experience with basic to intermediate level of Python programming language.</p>
+		</div>
+		<div class="card">
+			<i class="fab fa-java"></i>
+			<h3>Java Programming</h3>
+			<p>Experience with basic to advanced level of Java programming language.</p>
+		</div>
+	</div>
 </body>
 </html>
